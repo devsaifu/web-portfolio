@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Fira Sans', sans-serif;
 font-family: 'Fira Sans Condensed', sans-serif;
 }
@@ -16,4 +17,20 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(97, 58, 43), rgb(255, 39, 1));
+    background-color: coral;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
 }
